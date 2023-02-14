@@ -4,7 +4,7 @@ alias nv="nvidia-smi"
 alias bash_aliases="vim ~/.bash_aliases && source ~/.bashrc"
 alias bashrc="vim ~/.bashrc && source ~/.bashrc"
 # begin (useful in singularity shells loads bash_profile can't get to work properly using --rcfile)
-alias b=". {HOME}/.bash_profile"
+alias b=". ${HOME}/.bash_profile"
 
 # ========== Bash navigation  ==========
 alias ..="cd .."
