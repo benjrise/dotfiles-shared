@@ -1,7 +1,6 @@
 
 set clipboard=unnamed
 imap jj <Esc>
-vmap ll <Esc> 
 
 " Move up and down at start of each line
 nmap <C-k> -
@@ -21,3 +20,5 @@ nnoremap <s-U> <s-J>
 " H and L for moving to beginning and end of line
 nmap H ^
 nmap L $
+
+vnoremap <leader>p "_dP
