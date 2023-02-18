@@ -1,4 +1,4 @@
-alias nv="nvidia-smi"
+alias nv="watch -n 0.5 nvidia-smi"
 
 # ========== bashrc  ==========
 alias bash_aliases="vim ~/.bash_aliases && source ~/.bashrc"

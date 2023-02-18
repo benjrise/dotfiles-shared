@@ -20,5 +20,9 @@ nnoremap <s-U> <s-J>
 " H and L for moving to beginning and end of line
 nmap H ^
 nmap L $
+vmap H ^
+vmap L $
 
+" Not working as expected atm
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 vnoremap <leader>p "_dP
