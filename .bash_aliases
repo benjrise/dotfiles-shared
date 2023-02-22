@@ -1,10 +1,12 @@
-alias nv="watch -n 0.5 nvidia-smi"
+alias nv="nvidia-smi"
 
 # ========== bashrc  ==========
 alias bash_aliases="vim ~/.bash_aliases && source ~/.bashrc"
 alias bashrc="vim ~/.bashrc && source ~/.bashrc"
+alias vimrc="vim ~/.vimrc"
 # begin (useful in singularity shells loads bash_profile can't get to work properly using --rcfile)
 alias b=". ${HOME}/.bash_profile"
+alias n="nvim"
 
 # ========== Bash navigation  ==========
 alias ..="cd .."
