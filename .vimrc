@@ -5,6 +5,7 @@ nmap gk k
 
 let mapleader = " " 
 nnoremap <SPACE> <Nop>
+nnoremap <leader>f /
 
 " Move up and down by half page
 nnoremap <s-J> <C-D>zz
