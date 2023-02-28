@@ -29,6 +29,8 @@ nmap L g$
 vmap H g^
 vmap L g$
 
+nmap Y y$
+
 " Not working as expected atm
 :vnoremap <C-r> "hy:%s/<C-r>h//g<left><left>
 vnoremap p "_dP
