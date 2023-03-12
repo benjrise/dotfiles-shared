@@ -7,14 +7,14 @@ alias vimrc="vim ~/.vimrc"
 # begin (useful in singularity shells loads bash_profile can't get to work properly using --rcfile)
 alias b=". ${HOME}/.bash_profile"
 alias n="nvim"
+alias cls="clear"
 
 # ========== Bash navigation  ==========
 alias ..="cd .."
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
-alias .....='cd ../../../../'
-alias .4='cd ../../../../'
-alias .5='cd ../../../../..'
+alias 2..='cd ../..'
+alias 3..='cd ../../..'
+alias 4..='cd ../../../..'
+alias 5..='cd ../../../../..'
 alias la='ls -a --color=auto'
 alias ll='ls -la --color=auto'
 alias mkdir='mkdir -pv'
