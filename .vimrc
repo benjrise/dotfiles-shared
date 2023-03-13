@@ -8,8 +8,8 @@ nnoremap <SPACE> <Nop>
 nnoremap <leader>f /
 
 " Move up and down by half page
-nnoremap <s-J> <C-D>zz
-nnoremap <s-k> <C-U>zz
+noremap <s-J> <C-D>zz
+noremap <s-k> <C-U>zz
 
 " Add the below line to current line
 nnoremap <s-U> <s-J>
