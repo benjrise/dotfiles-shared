@@ -1,22 +1,23 @@
 set clipboard=unnamed
 imap jj <Esc>
-nmap gj j 
-nmap gk k
+nmap j gj 
+nmap k gk
+
+set iskeyword-=_
 
 let mapleader = " " 
 nnoremap <SPACE> <Nop>
-nnoremap <leader>f /
 
 " Move up and down by half page
-noremap <s-J> <C-D>zz
-noremap <s-k> <C-U>zz
+noremap <s-j> <c-d>zz
+noremap <s-k> <c-u>zz
 
 " Add the below line to current line
-nnoremap <s-U> <s-J>
+nnoremap <s-u> <s-j>
 
 " Change increment bindings not working
-nnoremap <A-a> <C-a>
-nnoremap <A-x> <C-x>
+nnoremap <A-a> <c-a>
+nnoremap <A-x> <s-x>
 
 " Add save to <C-s>
 vnoremap <C-s> :w<CR>
@@ -31,8 +32,6 @@ vmap L g$
 
 nmap Y y$
 
-" Not working as expected atm
-:vnoremap <C-r> "hy:%s/<C-r>h//g<left><left>
 vnoremap p "_dP
 
 " Escape special characters in a string for exact matching.
@@ -72,10 +71,12 @@ function! GetVisual() range
 endfunction
 
 " Start the find and replace command across the entire file
-vmap <C-r> "hy:%s/<C-r>=GetVisual()<cr>//g<left><left>
+vnoremap <C-r> "hy:%s/<C-r>=GetVisual()<cr>//g<left><left>
+" Change redo to <C-u>
+nnoremap <C-u> <C-r>
 
-nnoremap ^[j 10j
-nnoremap <M-j> :m .+1<CR>==
+" nnoremap ^[j 10j
+" nnoremap <M-j> :m .+1<CR>==
 " nnoremap <A-k> :m .-2<CR>==
 " inoremap <A-j> <Esc>:m .+1<CR>==gi
 " inoremap <A-k> <Esc>:m .-2<CR>==gi
