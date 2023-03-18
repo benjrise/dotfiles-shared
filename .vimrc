@@ -20,9 +20,9 @@ nnoremap <A-a> <c-a>
 nnoremap <A-x> <s-x>
 
 " Add save to <C-s>
-vnoremap <C-s> :w<CR>
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>i<right>
+vnoremap <c-s> :w<CR>
+nnoremap <c-s> :w<CR>
+inoremap <c-s> <Esc>:w<CR>i<right>
 
 " H and L for moving to beginning and end of line
 nmap H g^
