@@ -1,4 +1,3 @@
-set clipboard=unnamed
 imap jj <Esc>
 nmap j gj 
 nmap k gk
