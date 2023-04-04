@@ -6,6 +6,7 @@ set iskeyword-=_
 
 let mapleader = " " 
 nnoremap <SPACE> <Nop>
+nnoremap <CR> :noh<CR>
 
 " Move up and down by half page
 noremap <s-j> <c-d>zz
