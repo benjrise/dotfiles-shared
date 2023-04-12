@@ -3,6 +3,9 @@ nmap j gj
 nmap k gk
 
 set iskeyword-=_
+set expandtab
+set shiftwidth=4
+set tabstop=4
 
 let mapleader = " " 
 nnoremap <SPACE> <Nop>

@@ -1,5 +1,7 @@
 alias nv="nvidia-smi"
 
+# ========== tmux  ==========
+
 # ========== bashrc  ==========
 alias bash_aliases="vim ~/.bash_aliases && source ~/.bashrc"
 alias bashrc="vim ~/.bashrc && source ~/.bashrc"
