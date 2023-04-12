@@ -7,6 +7,17 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+augroup ShellScripts
+    autocmd!
+    autocmd BufRead,BufNewFile *.sh set filetype=sh
+    " Add additional autocommands for .sh files below this line.
+    " For example, you can set specific options, like enabling syntax highlighting or setting indentation:
+    autocmd FileType sh setlocal syntax=on
+    autocmd FileType sh setlocal expandtab
+    autocmd FileType sh setlocal shiftwidth=2
+    autocmd FileType sh setlocal softtabstop=2
+augroup END
+
 let mapleader = " " 
 nnoremap <SPACE> <Nop>
 nnoremap <CR> :noh<CR>
