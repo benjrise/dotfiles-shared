@@ -37,6 +37,10 @@ vnoremap <C-s> :w<CR>
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>i<right>
 
+" Quickly add ne line don't leave normal mode
+nnoremap <Leader>o o<Esc>0"_D
+nnoremap <Leader>O O<Esc>0"_D
+
 " H and L for moving to beginning and end of line
 nmap H g^
 nmap L g$
