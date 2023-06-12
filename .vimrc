@@ -2,7 +2,7 @@ imap jj <Esc>
 nmap j gj 
 nmap k gk
 
-set iskeyword-=_
+" set iskeyword-=_
 set expandtab
 set shiftwidth=4
 set tabstop=4
@@ -40,6 +40,9 @@ inoremap <C-s> <Esc>:w<CR>i<right>
 " Quickly add ne line don't leave normal mode
 nnoremap <Leader>o o<Esc>0"_D
 nnoremap <Leader>O O<Esc>0"_D
+
+nnoremap 0 ^
+nnoremap ^ 0
 
 " H and L for moving to beginning and end of line
 nmap H g^
