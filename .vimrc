@@ -37,6 +37,8 @@ vnoremap <C-s> :w<CR>
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>i<right>
 
+" Rehighlight after indentation
+vnoremap > >gv
 " Quickly add ne line don't leave normal mode
 nnoremap <Leader>o o<Esc>0"_D
 nnoremap <Leader>O O<Esc>0"_D
