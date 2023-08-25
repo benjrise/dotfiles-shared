@@ -24,6 +24,8 @@ nnoremap <CR> :noh<CR>
 " Move up and down by half page
 noremap <s-j> <c-d>zz
 noremap <s-k> <c-u>zz
+noremap <c-b> <c-b>zz
+noremap <c-f> <c-f>zz
 
 " Add the below line to current line
 nnoremap <s-u> <s-j>
