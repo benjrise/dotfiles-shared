@@ -1,5 +1,5 @@
 imap jj <Esc>
-nmap j gj 
+" nmap j gj " this is broken in vscode for unknown reasons
 nmap k gk
 
 " set iskeyword-=_
@@ -17,8 +17,8 @@ augroup ShellScripts
     autocmd FileType sh setlocal softtabstop=2
 augroup END
 
-let mapleader = " " 
-nnoremap <SPACE> <Nop>
+" let mapleader = " " 
+" nnoremap <SPACE> <Nop>
 nnoremap <CR> :noh<CR>
 
 " Move up and down by half page
@@ -42,8 +42,8 @@ inoremap <C-s> <Esc>:w<CR>i<right>
 " Rehighlight after indentation
 vnoremap > >gv
 " Quickly add ne line don't leave normal mode
-nnoremap <Leader>o o<Esc>0"_D
-nnoremap <Leader>O O<Esc>0"_D
+" nnoremap <Leader>o o<Esc>0"_D
+" nnoremap <Leader>O O<Esc>0"_D
 
 nnoremap 0 ^
 nnoremap ^ 0
