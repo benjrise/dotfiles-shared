@@ -1,6 +1,6 @@
 imap jj <Esc>
 " nmap j gj " this is broken in vscode for unknown reasons
-nmap k gk
+" nmap k gk
 
 " set iskeyword-=_
 set expandtab
