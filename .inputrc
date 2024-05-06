@@ -8,4 +8,8 @@ $if mode=vi
   "diw": "bde"
   set keymap vi-command
   "diW": "BdE"
+  set keymap vi-command
+  "ciw": "bce"
+  set keymap vi-command
+  "ciW": "BcE"
 $endif
