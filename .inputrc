@@ -2,8 +2,8 @@
 # set editing-mode vi
 #
 $if mode=vi
-  set keymap vi-insert
-  "jj": vi-movement-mode
+  # set keymap vi-insert
+  # "jj": vi-movement-mode
   set keymap vi-command
   "diw": "bde"
   set keymap vi-command
