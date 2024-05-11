@@ -1,6 +1,7 @@
 alias nv="nvidia-smi"
 
 # ========== tmux  ==========
+alias ks="tmux kill-session"
 
 # ========== bashrc  ==========
 alias bash_aliases="vim ~/.bash_aliases && source ~/.bashrc"
