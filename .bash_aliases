@@ -2,7 +2,7 @@ alias nv="nvidia-smi"
 alias histgrep="history | grep"
 
 # ========== tmux  ==========
-alias ks="tmux kill-session"
+alias ks="tmux kill-session -t"
 
 # ========== bashrc  ==========
 alias bash_aliases="vim ~/.bash_aliases && source ~/.bashrc"
