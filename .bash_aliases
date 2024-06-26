@@ -1,5 +1,5 @@
 alias nv="nvidia-smi"
-alias histgrep="history | grep"
+alias ghistory="history | grep"
 
 # ========== tmux  ==========
 alias ks="tmux kill-session -t"
