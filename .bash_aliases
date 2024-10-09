@@ -28,7 +28,7 @@ alias untar='tar -zxvf'
 alias tarz='tar -czvf'
 
 # ======== git aliases =========
-alias gs='git status'
+# alias gs='git status'
 alias ga='git add'
 alias gau='git add -u'
 alias gc='git commit -m'
